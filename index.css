@@ -3,9 +3,13 @@
 body{
   
     width: 550px;
+    margin: 0 auto;
+
+    height: 50vh;
     
-    align-items: center;
-    border: 1px solid #e6e6e6;
+    
+   
+
 }
 form{
     display: flex;
@@ -43,4 +47,32 @@ form{
 p{
     margin: 0;
     padding: 5px;
+}
+select{
+    border-radius: 5px;
+    border: #D1D5DB;
+    width: 312px;
+    height: 42px;
+    background-color: white;
+    border:1px solid #D1D5DB;
+    font-family: Inter;
+    font-weight:500;
+    font-size: 12px;
+    transition: 0.250s ease-in-out;
+
+}
+.btn{
+    width:123px;
+    height: 42px;
+    border-radius: 5px;
+    border:1px solid #D1D5DB;
+    background-color: white;
+    transition: 0.250s ease-in-out;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 12px;
+
+}
+.btn:hover{
+    background-color: #D1D5DB;
 }
